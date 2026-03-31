@@ -1,56 +1,53 @@
-# Interactive Personal Data Collector (Python)
+# Pattern Generator and Number Analyzer
 
-A simple Python program that collects personal information from the user
-through the command line and displays the collected data along with its
-data type and memory address.
+## Project Description
+
+This is a simple Python program that allows users to: - Generate a pattern - Analyze numbers within a given range
+
+The program is menu-driven and runs continuously until the user chooses
+to exit.
+
+------------------------------------------------------------------------
 
 ## Features
 
--   Collects user details such as:
-    -   Name
-    -   Age
-    -   Height
-    -   City
-    -   Phone Number
-    -   Favourite Number
--   Displays each value along with:
-    -   Data Type using `type()`
-    -   Memory Address using `id()`
--   Calculates approximate birth year from the entered age.
--   Simple and interactive command line interface.
+-   Pattern generation using loops
+-   Even and odd number identification
+-   Sum calculation of a range of numbers
+-   Input validation
+-   Continuous execution using a loop
 
-## Technologies Used
+------------------------------------------------------------------------
 
--   Python 3
+## Concepts Used
 
-## How the Program Works
+-   while loop
+-   for loop
+-   range() function
+-   if-elif-else conditions
+-   break and continue statements
+-   string multiplication
+-   input and output operations
 
-1.  The program welcomes the user.
-2.  It asks the user to enter personal details.
-3.  The inputs are stored in variables.
-4.  The program prints:
-    -   The entered value
-    -   The data type of the value
-    -   The memory address where it is stored.
-5.  It calculates the approximate birth year using:
+------------------------------------------------------------------------
 
-birth_year = current_year - age
+## Project Structure
 
-6.  Finally, it displays a thank you message.
+-   Single Python file containing the full program logic
 
-## How to Run
+------------------------------------------------------------------------
 
-1.  Install Python 3 on your system.
-2.  Clone or download this repository.
-3.  Navigate to the project folder.
-4.  Run the Python file:
+## Video Explanation
 
-python your_file_name.py
+https://drive.google.com/drive/folders/17gFNtzUtdCEX8LSrFxfamgzs9r8KxV2d?usp=sharing
+
+------------------------------------------------------------------------
 
 ## Author
 
-Dhruvi
+-   Dhruvi
+------------------------------------------------------------------------
 
 ## License
 
-This project is open-source and free to use for learning purposes.
+This project is for educational purposes.
